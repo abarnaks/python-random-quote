@@ -12,7 +12,10 @@ def primary():
   last = len(quotes) - 1
   rnd = random.randint(0,last)
 
-  print(quotes[rnd])
+  # print(quotes[rnd])
+
+  #print two quotes at a time
+  print(quotes[random.randint(0,last)], "\n", quotes[random.randint(0,last)])
   #-1 for last value regardless of size
   #list size is 14 so last element index would be 13
 
